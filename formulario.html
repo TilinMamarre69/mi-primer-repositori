@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="Gracias.html">
+        <div>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        </div>
+        <div>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido">
+        </div>
+        <div>
+        <label for="edad">Edad</label>
+        <input type="number" id="edad" name="edad">
+        </div>
+        <div>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento">
+        </div>
+        <div>
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+                <option value="0" disabled selected>Seleciona tu ciudad</option>
+                <option value="1">Cancún</option>
+                <option value="2">Mérida</option>
+                <option value="3">Chetumal</option>
+                <option value="4">Carrilo Puerto</option>
+                <option value="5">Playa del Carmen</option>
+                <option value="6">Cozumel</option>
+                <option value="7">Bacalar</option>
+                <option value="8">Tulum</option>
+                <option value="9">Solidaridad</option>
+            </select>
+        </div>
+        <div>
+            <label for="correo">Correo</label>
+            <input type="text" id="correo" name="correo">
+        </div>
+        <div>
+            <label for="género">Género</label>
+            <input type="radio" name="género" id="género" value="a">Masculino
+            <input type="radio" name="género" id="género" value="b">Femenino
+            <input type="radio" name="género" id="género" value="c">Otros
+        </div>
+        <div>
+            <label for="comentarios">Comentarios</label><br>
+            <textarea name="Comentarios" id="Comentarios" cols="50" rows="5"></textarea>
+        </div>
+        <div>
+            <label for="">He leído los <a href="términos y condiciones.html">términos y condiciones.</a></label>
+            <input type="checkbox" id="terminos" name="terminos">
+        </div>
+        <div>
+            <input type="submit" value="Registrate">
+            <input type="reset" value="Borrar Información">
+        </div>
+    </form>
+</body>
+</html>
